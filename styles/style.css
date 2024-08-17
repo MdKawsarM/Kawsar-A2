@@ -650,3 +650,89 @@ td {
     left: 5%;
 }   
 
+
+/* footer section style  */
+
+.footer-section {
+    width: 100%;
+    background: rgba(35, 33, 33, 0.945);
+    margin: 0 auto;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 35%;
+}
+
+.footer-left h1 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.footer-right {
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-left {
+    width: 40%;
+    height: 100%;
+}
+
+.get-right {
+    width: 40%;
+    height: 100%;
+}
+
+.footer-right h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-right p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-section hr {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: 79px auto 0 auto;
+}
+
+.reserved-sign {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+    text-align: center;
+    padding-bottom: 34px;
+}
