@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.shape-font {
+    font-family: 'Miama', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+}
+
+/* default style  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar style  */
+
+.nav-section {
+    width: 100%;
+    background: linear-gradient(rgb(17, 17, 17), rgba(26, 24, 24, 0) 600%);
+    height: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left-content h3 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.right-content {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.nav-home-btn {
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 20px 8px 20px;
+    margin: 4px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.icon-bar {
+    display: none;
+}
